@@ -4,7 +4,6 @@ import About from './About'
 import Home from './Home'
 import Contact from './Contact'
 import './App.css';
-import Home from './Home';
 
 function App() {
   
