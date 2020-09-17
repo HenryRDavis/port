@@ -11,13 +11,11 @@ function App() {
     <main>
       <div>
         <NavLink to='/about'>
-          <P>
-            About
-          </P>
+          About
         </NavLink>
 
         <NavLink to='/contact'>
-          <P>Contact</P>
+          Contact
         </NavLink>
         <Switch>
 
