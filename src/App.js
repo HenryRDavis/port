@@ -10,6 +10,7 @@ function App() {
   return (
     <main>
       <div>
+        <header>
         <NavLink to='/about'>
           About
         </NavLink>
@@ -17,13 +18,11 @@ function App() {
         <NavLink to='/contact'>
           Contact
         </NavLink>
-        <Switch>
+      </header>
 
-        <Route path='/'>
-          <Home>
-            
-          </Home>
-        </Route>
+         <Home/>
+
+        <Switch>
 
         <Route path='/about'>
           <About>
@@ -38,6 +37,7 @@ function App() {
         </Route>
 
         </Switch>
+
       </div>
 
     </main>
